@@ -12,9 +12,46 @@
 .btn-primary {
   font-size: 18px;
   font-weight: 600;
+  font-family: "Fira Sans", serif;
   color: #ffffff;
   background-color: #006a50;
   padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+}
+.section-title-primary {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 24px;
+}
+.section-description-primary {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: rgba(14, 14, 14, 0.7);
+}
+.vision-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Fira Sans", serif;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.vision-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: rgba(14, 14, 14, 0.7);
+}
+.vision-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Fira Sans", serif;
+  padding: 11px 20px;
+  margin-top: 32px;
   border: none;
   border-radius: 8px;
 }
@@ -22,8 +59,12 @@
 body {
   background-color: #f5f5f5;
 }
+body button:hover {
+  background-color: black;
+}
 /* header style */
-.header {
+.header,
+main {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -59,10 +100,44 @@ nav {
   font-size: 24px;
   font-weight: 500;
   color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans", serif;
 }
 .banner-title {
   font-size: 56px;
   font-weight: 700;
   margin-top: 16px;
   margin-bottom: 24px;
+  font-family: "Fira Sans", serif;
+}
+/* main style */
+main section {
+  margin: 80px 0;
+}
+/* vision style */
+.visions {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+.vision {
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-one {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-two {
+  background-color: rgba(198, 228, 214, 1);
+}
+.vision-three {
+  background-color: rgba(247, 235, 207, 1);
+}
+.vision-one-btn {
+  background-color: rgba(84, 144, 245, 1);
+}
+.vision-two-btn {
+  background-color: rgba(9, 161, 92, 1);
+}
+.vision-three-btn {
+  background-color: rgba(255, 194, 57, 1);
 }
