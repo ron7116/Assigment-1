@@ -141,3 +141,34 @@ main section {
 .vision-three-btn {
   background-color: rgba(255, 194, 57, 1);
 }
+/* quote style */
+.quote-content {
+  padding: 48px 24px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 24px 18px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  margin-top: 32px;
+}
+.quote-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.quote-title {
+  font-size: 200;
+  font-weight: 600;
+  font-family: "Fira Sans", serif;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 4px;
+}
+.quote-advise-para {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+  font-family: "Fira Sans", serif;
+}
